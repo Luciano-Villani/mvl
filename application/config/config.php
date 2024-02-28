@@ -30,12 +30,12 @@ switch ($_SERVER['REMOTE_ADDR']) {
         $config['base_url'] = 'http://mvl.local/';
         break;    
         case '38.52.86.75':
-        $config['base_url'] = 'https://test.quickdata.com.ar/';
+        $config['base_url'] = 'https://34.16.151.11/';
         break;       
        
         break;
         default:
-        $config['base_url'] = 'https://test.quickdata.com.ar/';
+        $config['base_url'] = 'https://34.16.151.11/';
         
     
 }
