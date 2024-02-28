@@ -10,7 +10,7 @@ $query_builder = TRUE;
 // pass db /GaTGjBg7#bB
 
 switch ($_SERVER['REMOTE_ADDR']) {
-    case '2222127.0.0.1':
+    case '127.0.0.1':
 			$host = 'srv1073.hstgr.io';
 			$host = 'localhost';
 			$userdb ='root';
