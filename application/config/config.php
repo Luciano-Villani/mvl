@@ -31,7 +31,6 @@ switch ($_SERVER['REMOTE_ADDR']) {
         break;    
         case '181.117.11.253':
         $config['base_url'] = 'http://quickdata-ocr.com/';
-        echo $_SERVER['REMOTE_ADDR'];
         break;       
        
         break;

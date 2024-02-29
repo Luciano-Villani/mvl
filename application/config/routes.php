@@ -119,6 +119,7 @@ $route['Admin/usuarios/listados'] = 'usuarios/listados';
 $route['Admin'] = 'admin';
 $route['Login'] = 'auth/login';
 $route['Logout'] = 'auth/logout';
+var_dump($route);die();
 $route['default_controller'] = 'auth/login';
 $route['404_override'] = 'Admin/Consolidados';
 $route['translate_uri_dashes'] = FALSE;
