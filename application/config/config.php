@@ -29,7 +29,7 @@ switch ($_SERVER['REMOTE_ADDR']) {
     case 'otro_127.0.0.1':
         $config['base_url'] = 'http://mvl.local/';
         break;    
-        case '34.16.151.11':
+        case '181.117.11.253':
         $config['base_url'] = 'http://quickdata-ocr.com/';
         break;       
        
