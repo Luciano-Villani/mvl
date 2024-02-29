@@ -120,5 +120,5 @@ $route['Admin'] = 'admin';
 $route['Login'] = 'auth/login';
 $route['Logout'] = 'auth/logout';
 $route['default_controller'] = 'auth/login';
-$route['404_override'] = 'Lotes/Listados';
+$route['404_override'] = 'Admin/Consolidados';
 $route['translate_uri_dashes'] = FALSE;
