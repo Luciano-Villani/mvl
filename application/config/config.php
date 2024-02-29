@@ -26,7 +26,7 @@ B=MDQri(,t{c
 */
 
 switch ($_SERVER['REMOTE_ADDR']) {
-    case '127.0.0.1':
+    case 'otro_127.0.0.1':
         $config['base_url'] = 'http://mvl.local/';
         break;    
         case '34.16.151.11':
