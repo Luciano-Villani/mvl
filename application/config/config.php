@@ -24,13 +24,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 B=MDQri(,t{c
 */
-echo $_SERVER['REMOTE_ADDR'];
+
 switch ($_SERVER['REMOTE_ADDR']) {
     case 'otro_127.0.0.1':
         $config['base_url'] = 'http://mvl.local/';
         break;    
         case '181.117.11.253':
         $config['base_url'] = 'http://quickdata-ocr.com/';
+        echo $_SERVER['REMOTE_ADDR'];
         break;       
        
         break;
